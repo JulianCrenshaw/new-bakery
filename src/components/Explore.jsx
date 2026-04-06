@@ -1,0 +1,20 @@
+import React from 'react'
+import { Link } from 'react-router-dom'
+
+const Explore = () => {
+  return (
+   <section id="explore">
+    <div className="container">
+        <div className="row row__column">
+            <h2 className="section__title">
+                Explore more <span className="blue">Desserts</span>
+            </h2>
+            <Link to="/desserts">
+            <button className="btn">Explore Desserts</button></Link>
+        </div>
+    </div>
+   </section>
+  )
+}
+
+export default Explore
