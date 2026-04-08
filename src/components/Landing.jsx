@@ -1,6 +1,5 @@
 import React from 'react'
 import Party from '../assets/party.png'
-import { Link } from 'react-router-dom'
 
 const Landing = () => {
   return (
